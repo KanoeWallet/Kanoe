@@ -1,0 +1,42 @@
+{
+  "name": "kanoe-contracts",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KanoeWallet/Kanoe.git"
+  },
+  "author": "Ambersoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KanoeWallet/Kanoe/issues"
+  },
+  "homepage": "https://github.com/KanoeWallet/Kanoe",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts-upgradeable": "^4.5.2",
+    "@openzeppelin/upgrades": "^2.8.0",
+    "@truffle/contract": "^4.6.31",
+    "@truffle/hdwallet-provider": "^2.0.16",
+    "axios": "^1.0.0",
+    "bignumber.js": "^9.0.2",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.1.0",
+    "chai-events": "^0.0.3",
+    "dayjs": "^1.11.11",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.5.4",
+    "truffle": "^5.5.32",
+    "truffle-contract-size": "^2.0.1",
+    "truffle-plugin-verify": "^0.5.27",
+    "web3": "^1.7.4"
+  }
+}
